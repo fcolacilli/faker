@@ -3,8 +3,6 @@
 module Faker
   class File < Base
     class << self
-      # rubocop:disable Metrics/ParameterLists
-
       ##
       # Produces a random directory name.
       #
@@ -20,7 +18,9 @@ module Faker
       #   Faker::File.dir(segment_count: 3, root: nil, directory_separator: '\\') #=> "aut-ullam\\quia_quisquam\\ut-eos"
       #
       # @faker.version 1.6.4
+      # rubocop:disable Metrics/ParameterLists
       def dir(legacy_segment_count = NOT_GIVEN, legacy_root = NOT_GIVEN, legacy_directory_separator = NOT_GIVEN, segment_count: 3, root: nil, directory_separator: ::File::Separator)
+        # rubocop:enable Metrics/ParameterLists
         warn_for_deprecated_arguments do |keywords|
           keywords << :segment_count if legacy_segment_count != NOT_GIVEN
           keywords << :root if legacy_root != NOT_GIVEN
@@ -34,7 +34,6 @@ module Faker
           .join(directory_separator)
           .squeeze(directory_separator)
       end
-      # rubocop:enable Metrics/ParameterLists
 
       ##
       # Produces a random file extension.
@@ -62,8 +61,6 @@ module Faker
         fetch('file.mime_type')
       end
 
-      # rubocop:disable Metrics/ParameterLists
-
       ##
       # Produces a random file name.
       #
@@ -80,7 +77,9 @@ module Faker
       #   Faker::File.file_name(dir: 'foo/bar', name: 'baz', ext: 'mp3', directory_separator: '\\') #=> "foo/bar\\baz.mp3"
       #
       # @faker.version 1.6.4
+      # rubocop:disable Metrics/ParameterLists
       def file_name(legacy_dir = NOT_GIVEN, legacy_name = NOT_GIVEN, legacy_ext = NOT_GIVEN, legacy_directory_separator = NOT_GIVEN, dir: nil, name: nil, ext: nil, directory_separator: ::File::Separator)
+        # rubocop:enable Metrics/ParameterLists
         warn_for_deprecated_arguments do |keywords|
           keywords << :dir if legacy_dir != NOT_GIVEN
           keywords << :name if legacy_name != NOT_GIVEN
@@ -94,7 +93,6 @@ module Faker
 
         [dir, name].join(directory_separator) + ".#{ext}"
       end
-      # rubocop:enable Metrics/ParameterLists
     end
   end
 end
