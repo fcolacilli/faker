@@ -14,4 +14,4 @@ jobs:
       - uses: tgymnich/fork-sync@v1.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          base: faker-ruby:master
+          head: faker-ruby:master
