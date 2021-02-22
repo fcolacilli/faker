@@ -429,6 +429,7 @@ es-AR:
                 - Alonso
                 - Altamirano
                 - Álvarez
+                - Amato
                 - Andrada
                 - Aquino
                 - Aranda
@@ -439,11 +440,17 @@ es-AR:
                 - Ayala
                 - Báez
                 - Barbieri
+                - Barone
                 - Barrera
                 - Barrionuevo
                 - Barrios
+                - Basile
+                - Battaglia
                 - Bazán
+                - Bellini
+                - Benedetti
                 - Benítez
+                - Bernardi
                 - Bianchi
                 - Bianco
                 - Blanco
@@ -459,10 +466,13 @@ es-AR:
                 - Cáceres
                 - Calderón
                 - Campos
+                - Caputo
                 - Carabajal
+                - Carbone
                 - Cardozo
                 - Carrizo
                 - Caruso
+                - Castelli
                 - Castillo
                 - Castro
                 - Cattaneo
@@ -470,6 +480,7 @@ es-AR:
                 - Cejas
                 - Chávez
                 - Colombo
+                - Conte
                 - Conti
                 - Contreras
                 - Coppola
@@ -479,11 +490,18 @@ es-AR:
                 - Correa
                 - Cortéz
                 - Costa
+                - Costantini
                 - Cruz
                 - Cuello
+                - D'Agostino
+                - D'Amico
                 - D'Angelo
                 - Dalla
+                - de Angelis
+                - de Rosa
+                - de Santis
                 - Delgado
+                - di Stefano
                 - Díaz
                 - Domínguez
                 - Duarte
@@ -492,13 +510,17 @@ es-AR:
                 - Esposito
                 - Fabbri
                 - Farías
+                - Farina
                 - Fernández
                 - Ferrara
                 - Ferrari
                 - Ferraro
+                - Ferrero
+                - Ferretti
                 - Ferreyra
                 - Ferri
                 - Figueroa
+                - Fiore
                 - Flores
                 - Fontana
                 - Franco
@@ -518,9 +540,11 @@ es-AR:
                 - Gil
                 - Giménez
                 - Giordano
+                - Giuliani
                 - Godoy
                 - Gómez
                 - González
+                - Grassi
                 - Grasso
                 - Greco
                 - Guerrero
@@ -540,6 +564,7 @@ es-AR:
                 - Leone
                 - Lescano
                 - Lezcano
+                - Locatelli
                 - Lombardi
                 - Lombardo
                 - Longo
@@ -552,6 +577,7 @@ es-AR:
                 - Mamani
                 - Mancini
                 - Mansilla
+                - Mantovani
                 - Marchetti
                 - Mariani
                 - Marini
@@ -561,24 +587,30 @@ es-AR:
                 - Martinelli
                 - Martínez
                 - Martini
+                - Martino
+                - Mazza
                 - Medina
                 - Méndez
                 - Mendoza
                 - Mercado
                 - Messina
                 - Meza
+                - Milani
                 - Miño
                 - Miranda
                 - Molina
+                - Montanari
                 - Montenegro
                 - Monti
                 - Monzón
                 - Morales
+                - Morelli
                 - Moreno
                 - Moretti
                 - Moyano
                 - Muñoz
                 - Navarro
+                - Negri
                 - Nieto
                 - Nieva
                 - Núñez
@@ -587,21 +619,27 @@ es-AR:
                 - Oliva
                 - Olivera
                 - Orellana
+                - Orlando
                 - Ortega
                 - Ortiz
                 - Oviedo
                 - Pacheco
                 - Páez
+                - Pagano
                 - Palacios
                 - Palavecino
+                - Palmieri
                 - Paredes
+                - Parisi
                 - Paz
                 - Pellegrini
+                - Pellegrino
                 - Peralta
                 - Pereira
                 - Pereyra
                 - Pérez
                 - Ponce
+                - Pozzi
                 - Quintana
                 - Quinteros
                 - Quiroga
@@ -612,8 +650,10 @@ es-AR:
                 - Ricci
                 - Rinaldi
                 - Ríos
+                - Riva
                 - Rivas
                 - Rivero
+                - Rizzi
                 - Rizzo
                 - Robledo
                 - Robles
@@ -621,9 +661,12 @@ es-AR:
                 - Rojas
                 - Roldán
                 - Romano
+                - Romeo
                 - Romero
                 - Rosales
+                - Rossetti
                 - Rossi
+                - Ruggiero
                 - Ruiz
                 - Russo
                 - Sala
@@ -636,7 +679,9 @@ es-AR:
                 - Segovia
                 - Serra
                 - Silva
+                - Silvestri
                 - Soria
+                - Sorrentino
                 - Sosa
                 - Sotelo
                 - Soto
@@ -646,6 +691,7 @@ es-AR:
                 - Toledo
                 - Torres
                 - Valdéz
+                - Valentini
                 - Valenzuela
                 - Vallejos
                 - Varela
@@ -661,6 +707,7 @@ es-AR:
                 - Villarreal
                 - Villegas
                 - Vitale
+                - Vitali
                 - Zalazar
                 - Zapata
                 - Zárate
@@ -805,7 +852,7 @@ es-AR:
                 - Charata
                 - Chascomús
                 - Chepes
-                - Chicoana
+                - Chiclana
                 - Chilecito
                 - Chimbas
                 - Chivilcoy
@@ -1683,14 +1730,32 @@ es-AR:
                 - "Ruta ##"
                 - "Ruta ###"
             street_address:
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
+                - "#{street_name} #{building_number}"
                 - "#{road_name}, #{road_suffix}"
                 - "#{road_prefix} #{city}, #{road_suffix}"
-                - "#{street_name} #{building_number}"
-                - "#{street_name} #{building_number}"
-                - "#{street_name} #{building_number}"
-                - "#{street_name} #{building_number}"
-                - "#{street_name} #{building_number}"
-                - "#{street_name} #{building_number}"
             postcode:
                 - "####"
                 - "?####???"
