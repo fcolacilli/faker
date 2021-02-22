@@ -14,5 +14,3 @@ jobs:
       - uses: tgymnich/fork-sync@v1.2.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          auto_approve: true
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
