@@ -1433,7 +1433,18 @@ es-AR:
             building_number:
                 - S/N
                 - "##"
+                - "##"
                 - "###"
+                - "###"
+                - "####"
+                - "####"
+                - "####"
+                - "####"
+                - "####"
+                - "####"
+                - "####"
+                - "####"
+                - "####"
                 - "####"
                 - "#####"
             secondary_address:
@@ -1713,6 +1724,14 @@ es-AR:
             street_suffix: ""
             street_name:
                 - "#{street_prefix} #{street}"
+                - "#{street}"
+                - "#{street}"
+                - "#{street}"
+                - "#{street}"
+                - "#{street}"
+                - "#{street}"
+                - "#{street}"
+                - "#{street}"
                 - "#{street}"
                 - "#{street}"
                 - "#{street}"
